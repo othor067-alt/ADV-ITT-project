@@ -305,7 +305,7 @@ if 'page_number' not in st.session_state:
 def load_data():
     """Load data from Excel file"""
     try:
-        df = pd.read_excel(r"c:\Users\ICAI-PC\OneDrive\Desktop\it CALC\random_india_data_5000(1).xlsx")
+        df = pd.read_excel(r"random_india_data_5000(1).xlsx")
         return df
     except Exception as e:
         st.error(f"Error loading data: {e}")
